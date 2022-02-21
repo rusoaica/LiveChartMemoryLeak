@@ -1,0 +1,6 @@
+.vs/*
+.idea/*
+.editorconfig
+LiveChartMemoryLeak/obj/*
+LiveChartMemoryLeak/bin/*
+.git/*

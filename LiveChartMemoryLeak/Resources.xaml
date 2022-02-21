@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView;assembly=LiveChartsCore.SkiaSharpView"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <x:Array Type="lvc:Axis" x:Key="ChartAxisX">
+        <lvc:Axis>
+            <lvc:Axis.Labels>
+                <x:Array Type="sys:String">
+                    <sys:String>January</sys:String>
+                    <sys:String>February</sys:String>
+                    <sys:String>March</sys:String>
+                    <sys:String>April</sys:String>
+                    <sys:String>May</sys:String>
+                    <sys:String>June</sys:String>
+                    <sys:String>July</sys:String>
+                    <sys:String>August</sys:String>
+                    <sys:String>September</sys:String>
+                    <sys:String>October</sys:String>
+                    <sys:String>November</sys:String>
+                    <sys:String>December</sys:String>
+                </x:Array>
+            </lvc:Axis.Labels>
+        </lvc:Axis>
+    </x:Array>
+</ResourceDictionary>
